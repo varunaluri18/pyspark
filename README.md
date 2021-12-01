@@ -12,6 +12,7 @@ I.Transformations:
 Narrow Transformations: Narrow Transformations are applied to a single partition of parent RDD to generate new RDD as the data required to process the RDD in available on the single partition of parent RDD
 example:
 .map()
+
 .filter()
 .flatmap()
 .partition()
